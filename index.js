@@ -5,8 +5,8 @@ import './style.css';
 // const appDiv = document.getElementById('app');
 // appDiv.innerHTML = `<h1>JS Starter</h1>`;
 function hitungLuas() {
-  const alas = document.getElementById(`alas`).values;
-  const tinggi = document.getElementById(`tinggi`).values;
+  const alas = document.getElementById(`alas`).value;
+  const tinggi = document.getElementById(`tinggi`).value;
   const luas = 0.5 * alas * tinggi;
   document.getElementById(`luas`).values = luas;
 };
